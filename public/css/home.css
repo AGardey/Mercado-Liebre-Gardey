@@ -1,0 +1,717 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-----------------------HTML---------------------*/
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    width: 100vw;
+}
+
+/*-----------------------HEADER---------------------*/
+header{
+    background-color: #EAC926;
+    width: 100vw;
+    height: 100%;
+}
+
+.div-versionuno{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logoliebre{
+    width: 50%;
+}
+
+.logodos{
+    width: 80%;
+}
+
+.formulario{
+    width: 50%;
+}
+
+.formulario-1{
+    width: 40%;
+}
+
+.logo-tres{
+    width: 90%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-self: flex-end;
+
+}
+
+nav{
+    display: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.burguer-menu{
+    background-color: #03264c;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+.banner{
+    display: flex;
+    width: 100vw;
+    height: 90%;
+    justify-content: space-around;
+    
+
+}
+
+.banner-home{
+    justify-content: center;
+    max-width: 100vw;
+}
+
+/*-----------------------MAIN---------------------*/
+
+/*main{
+    width: 100vw;
+    margin: 0;
+    background-color: #ebebeb;
+
+
+}*/
+
+.main-movil{
+    width: 100vw;
+    /*height: 100vh;*/
+    background-color: #ebebeb;
+}
+
+section{
+    width: 90%;
+  background: white;
+}
+
+.articulo-original{
+    width: 90vw;
+    padding: 5px;
+    box-shadow: 0px 0px 10px 0px rgb(100, 100, 100);
+}
+
+.article-box{
+    width: 90%;
+    margin: auto;
+}
+
+.imagen-producto{
+    max-width: 90%;
+
+}
+
+/*.descripción-caja{
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+    box-sizing: border-box;
+}*/
+
+
+
+main section article i{
+    display: block; 
+    font-size: 16px;
+    padding: 5px; 
+    width: 30px; 
+    height: 30px; 
+    border: 1px solid #39b54a;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute; 
+    right: 20px; 
+    top: 55vh;
+}
+
+.precio{
+    font-size: 18px;
+    width: 30%;
+
+}
+
+.titulares{
+    font-size:20px;
+    margin: 10px 0px;
+}
+
+.descuentos{
+    font-size: 16px;
+    color: #39b54a;
+    width: 70%;
+    
+
+}
+
+.descripciones{
+    font-size:16px;
+    display: none;
+}
+
+.div-descripcion{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    max-width: 250px;
+    margin-bottom: 10px;
+}
+
+.imagen{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+
+/*-----------------------FOOTER---------------------*/
+
+footer{
+    text-align: center;
+    width: 90%;
+    margin-top: 10px;
+}
+
+/*-----------------------MEDIA-QUERYS TABLET---------------------*/
+@media (min-width: 361px){
+
+    
+    header{
+    background-color: #EAC926;
+    width: 100vw;
+    height: 100%;
+    }  
+ 
+    .div-versionuno{
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
+        width:100vw;
+    }
+
+    .logoliebre{
+        width: 34%;
+    }
+    
+    .formulario{
+        width: 33%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .logo-tres{
+        width: 30%;
+        font-size: 60%;
+    }
+
+    .div-navbar{
+        width: 100vw;
+    }
+       
+
+   .listado{
+    width: 100%;
+    display: flex;
+    padding: 8px;
+    justify-content: space-between;
+    margin: 0px 5px;
+       
+
+   }
+
+   .listado ul li{
+       margin: 0px 7px;
+   }
+
+   .listado-1{
+    width: 47%;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    font-size: 60%;
+   }
+
+   .listado-2{
+    width: 47%;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    font-size: 60%;
+ 
+   }
+   
+
+
+   .burguer-menu{
+       display: none;
+
+   }
+
+   .banner{
+    display: flex;
+    width: 100%;
+    height: 90%;
+    justify-content: space-around;
+    
+
+}
+
+.banner-home{
+    justify-content: center;
+    max-width: 100vw;
+
+}
+   /*-----------------------MAIN---------------------*/
+
+    main{
+    width: 100%;
+    margin: auto;
+    background-color: #ebebeb;
+}
+
+   article{
+    padding-top: 5px; 
+    padding-bottom: 5px;
+    box-shadow: 0px 0px 10px 0px rgb(100, 100, 100);
+
+} 
+
+
+.section-display{
+    display: flex;
+    width: 95%;
+    flex-wrap: wrap;
+}
+
+.titulares{
+    width: 100%;
+}
+
+.imagen-producto{
+    width: 90%;
+
+}
+
+.articulo-original{
+    width: 50%;
+}
+
+.article-box{
+    width: 100%;
+    margin: 0;
+}
+
+.div-descripcion{
+    width: 100%;
+    justify-content: center;
+}
+
+.precio{
+    font-size: 16px;
+    width: 50%;
+
+}
+
+.descuentos{
+    font-size: 14px;
+    color: #39b54a;
+    width: 50%;
+    
+
+}
+
+.descripciones{
+    font-size:11px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+/*-----------------------FOOTER---------------------*/
+
+footer{
+    text-align: center;
+    width: 90%;
+    margin-top: 10px;
+
+}
+
+.section-footer{
+    width: 100%;
+    font-size: 90%;
+    justify-content:space-around;
+
+}
+
+}
+
+/*-----------------------MEDIA-QUERYS TABLET---------------------*/
+@media (min-width: 400px){
+
+    header{
+        background-color: #EAC926;
+        width: 100vw;
+        height: 100%;
+        }  
+     
+        .div-versionuno{
+            display: flex;
+            justify-content: center;
+            justify-content: space-between;
+            align-items: center;
+            width:100vw;
+        }
+    
+        .logoliebre{
+            width: 34%;
+        }
+        
+        .formulario{
+            width: 33%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .logo-tres{
+            width: 30%;
+            font-size: 60%;
+        }
+    
+        .div-navbar{
+            width: 100vw;
+        }
+           
+    
+       .listado{
+        width: 100%;
+        display: flex;
+        padding: 8px;
+        justify-content: space-between;
+        margin: 0px 5px;
+           
+    
+       }
+    
+       .listado ul li{
+           margin: 0px 7px;
+       }
+    
+       .listado-1{
+        width: 47%;
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+        font-size: 60%;
+       }
+    
+       .listado-2{
+        width: 47%;
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+        font-size: 60%;
+     
+       }
+       
+    
+    
+       .burguer-menu{
+           display: none;
+    
+       }
+    
+       .banner{
+        display: flex;
+        width: 100%;
+        height: 90%;
+        justify-content: space-around;
+        
+    
+    }
+    
+    .banner-home{
+        justify-content: center;
+        max-width: 100vw;
+    
+    }
+       /*-----------------------MAIN---------------------*/
+    
+        main{
+        width: 100%;
+        margin: auto;
+        background-color: #ebebeb;
+    }
+    
+       article{
+        padding-top: 5px; 
+        padding-bottom: 5px;
+        box-shadow: 0px 0px 10px 0px rgb(100, 100, 100);
+    
+    } 
+    
+    
+    .section-display{
+        display: flex;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    .titulares{
+        width: 100%;
+    }
+    
+    .imagen-producto{
+        width: 90%;
+    
+    }
+    
+    .articulo-original{
+        width: 50%;
+    }
+    
+    .article-box{
+        width: 100%;
+        margin: 0px;
+
+    }
+    
+    .div-descripcion{
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .precio{
+        font-size: 16px;
+        width: 50%;
+    
+    }
+    
+    .descuentos{
+        font-size: 14px;
+        color: #39b54a;
+        width: 50%;
+        
+    
+    }
+    
+    .descripciones{
+        font-size:11px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    
+    /*-----------------------FOOTER---------------------*/
+    
+    footer{
+        text-align: center;
+        width: 90%;
+        margin-top: 10px;
+    
+    }
+    
+    .section-footer{
+        width: 100%;
+        font-size: 90%;
+        justify-content:space-around;
+    
+    }    
+}
+
+/*-----------------------MEDIA-QUERYS DESKTOP---------------------*/
+
+   @media (min-width: 769px){
+
+    header{
+        background-color: #EAC926;
+        width: 100vw;
+        height: 100%;
+        }  
+     
+        .div-versionuno{
+            display: flex;
+            justify-content: center;
+            justify-content: space-between;
+            align-items: center;
+            width:100vw;
+        }
+    
+        .logoliebre{
+            width: 34%;
+        }
+        
+        .formulario{
+            width: 33%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .logo-tres{
+            width: 30%;
+            font-size: 60%;
+        }
+    
+        .div-navbar{
+            width: 100vw;
+        }
+           
+    
+       .listado{
+        width: 100%;
+        display: flex;
+        padding: 8px;
+        justify-content: space-between;
+        margin: 0px 5px;
+           
+    
+       }
+    
+       .listado ul li{
+           margin: 0px 7px;
+       }
+    
+       .listado-1{
+        width: 47%;
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+        font-size: 60%;
+       }
+    
+       .listado-2{
+        width: 47%;
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+        font-size: 60%;
+     
+       }
+       
+    
+    
+       .burguer-menu{
+           display: none;
+    
+       }
+    
+       .banner{
+        display: flex;
+        width: 100%;
+        height: 90%;
+        justify-content: space-around;
+        
+    
+    }
+    
+    .banner-home{
+        justify-content: center;
+        max-width: 100vw;
+    
+    }
+       /*-----------------------MAIN---------------------*/
+    
+        main{
+        width: 100%;
+        margin: auto;
+        background-color: #ebebeb;
+    }
+    
+       article{
+        padding-top: 5px; 
+        padding-bottom: 5px;
+        box-shadow: 0px 0px 10px 0px rgb(100, 100, 100);
+    
+    } 
+    
+    
+    .section-display{
+        display: flex;
+        width: 95%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 10px;
+    }
+
+    .titulares{
+        width: 90%;
+    }
+
+    
+    .imagen-producto{
+        width: 90%;
+    
+    }
+    
+    .articulo-original{
+        width: 15%;
+
+    }
+    
+    .article-box{
+        width: 100%;
+        margin: 0;
+
+    }
+    
+    .div-descripcion{
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .precio{
+        font-size: 16px;
+        width: 50%;
+    
+    }
+    
+    .descuentos{
+        font-size: 14px;
+        color: #39b54a;
+        width: 50%;
+        
+    
+    }
+    
+    .descripciones{
+        font-size:11px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    
+    /*-----------------------FOOTER---------------------*/
+    
+    footer{
+        text-align: center;
+        width: 90%;
+        margin-top: 10px;
+    
+    }
+    
+    .section-footer{
+        width: 100%;
+        font-size: 90%;
+        justify-content:space-around;
+    
+    }
+       
+   }
+

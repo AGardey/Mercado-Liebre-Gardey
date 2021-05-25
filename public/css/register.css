@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-----------------------HTML---------------------*/
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    width: 100vw;
+}
+
+/*-----------------------HEADER---------------------*/
+header{
+    background-color: #EAC926;
+    width: 100vw;
+    height: 100%;
+}
+
+.div-versionuno{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logoliebre{
+    width: 50%;
+}
+
+.logodos{
+    width: 80%;
+}
+
+.formulario{
+    width: 50%;
+}
+
+.formulario-1{
+    width: 40%;
+}
+
+.logo-tres{
+    width: 90%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-self: flex-end;
+
+}
+
+nav{
+    display: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.burguer-menu{
+    background-color: #03264c;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+.banner{
+    display: flex;
+    width: 100vw;
+    height: 90%;
+    justify-content: space-around;
+    
+
+}
+
+.banner-home{
+    justify-content: center;
+    max-width: 100vw;
+}
+
+/*-----------------------MAIN---------------------*/
+
+.main-movil{
+    width: 100vw;
+    /*height: 100vh;*/
+    background-color: #ebebeb;
+}
+
+.section-display{
+    width: 90%;
+}
+
+.titulares{
+    width: 100%;
+    background-color: #ebebeb;
+}
+
+.form-register{
+    padding: 10px;
+    background-color: #ebebeb;
+}
+
+p{
+    padding: 5px;
+}
+
+
+/*-----------------------FOOTER---------------------*/
+
+footer{
+    font-size: 65%;
+    text-align: center;
+    width: 90%;
+    margin-top: 10px;
+}
+
+/*-----------------------MEDIA-QUERYS TABLET---------------------*/
+@media (min-width: 361px){
+
+    
+    header{
+    background-color: #EAC926;
+    width: 100vw;
+    height: 100%;
+    }  
+ 
+    .div-versionuno{
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
+        width:100vw;
+    }
+
+    .logoliebre{
+        width: 34%;
+    }
+    
+    .formulario{
+        width: 33%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .logo-tres{
+        width: 30%;
+        font-size: 60%;
+    }
+
+    .div-navbar{
+        width: 95vw;
+    }
+       
+
+   .listado{
+    width: 100%;
+    display: flex;
+    padding: 8px;
+    justify-content: space-between;
+    margin: 0px 5px;
+       
+
+   }
+
+   .listado ul li{
+       margin: 0px 7px;
+   }
+
+   .listado-1{
+    width: 47%;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    font-size: 60%;
+   }
+
+   .listado-2{
+    width: 47%;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    font-size: 60%;
+ 
+   }
+   
+
+
+   .burguer-menu{
+       display: none;
+
+   }
+
+   .banner{
+    display: flex;
+    width: 100%;
+    height: 90%;
+    justify-content: space-around;
+    
+
+}
+
+.banner-home{
+    justify-content: center;
+    max-width: 100vw;
+
+}
+
+
+}
+   /*-----------------------MAIN---------------------*/
+
+   .main-movil{
+    width: 100vw;
+    /*height: 100vh;*/
+    background-color: #ebebeb;
+}
+
+.section-display{
+    width: 90%;
+}
+
+.titulares{
+    width: 100%;
+    background-color: #ebebeb;
+}
+
+.form-register{
+    padding: 20px;
+    background-color: #ebebeb;
+}
+
+p{
+    padding: 10px;
+}
+
+
+
+
+   /*-----------------------FOOTER---------------------*/
+
+footer{
+    font-size: 70%;
+    text-align: center;
+    width: 90%;
+    margin-top: 2px;
+
+}
+
+.section-footer{
+    width: 100%;
+    font-size: 90%;
+    justify-content:space-around;
+
+}
+
+/*-----------------------MEDIA-QUERYS DESKTOP---------------------*/
+
+@media (min-width: 769px){
+
+    header{
+        background-color: #EAC926;
+        width: 100vw;
+        height: 100%;
+        }  
+     
+        .div-versionuno{
+            display: flex;
+            justify-content: center;
+            justify-content: space-between;
+            align-items: center;
+            width:100vw;
+        }
+    
+        .logoliebre{
+            width: 34%;
+        }
+        
+        .formulario{
+            width: 33%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .logo-tres{
+            width: 30%;
+            font-size: 60%;
+        }
+    
+        .div-navbar{
+            width: 100vw;
+        }
+           
+    
+       .listado{
+        width: 100%;
+        display: flex;
+        padding: 8px;
+        justify-content: space-between;
+        margin: 0px 5px;
+           
+    
+       }
+    
+       .listado ul li{
+           margin: 0px 7px;
+       }
+    
+       .listado-1{
+        width: 47%;
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+        font-size: 60%;
+       }
+    
+       .listado-2{
+        width: 47%;
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+        font-size: 60%;
+     
+       }
+       
+    
+    
+       .burguer-menu{
+           display: none;
+    
+       }
+    
+       .banner{
+        display: flex;
+        width: 100%;
+        height: 90%;
+        justify-content: space-around;
+        
+    
+    }
+    
+    .banner-home{
+        justify-content: center;
+        max-width: 100vw;
+    
+    }
+       /*-----------------------MAIN---------------------*/
+
+       .main-movil{
+        width: 100vw;
+        /*height: 100vh;*/
+        background-color: #ebebeb;
+    }
+    
+    .section-display{
+        width: 90%;
+    }
+    
+    .titulares{
+        width: 100%;
+        background-color: #ebebeb;
+    }
+    
+    .form-register{
+        padding: 30px;
+        background-color: #ebebeb;
+    }
+    
+    p{
+        padding: 15px;
+    }
+
+
+
+/*-----------------------FOOTER---------------------*/
+    
+footer{
+    text-align: center;
+    width: 90%;
+    margin-top: 10px;
+
+}
+
+.section-footer{
+    width: 100%;
+    font-size: 95%;
+    justify-content:space-around;
+
+}
+   
+}
