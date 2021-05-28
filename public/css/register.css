@@ -378,17 +378,29 @@ footer{
 /*-----------------------FOOTER---------------------*/
     
 footer{
+    display: flex;
     text-align: center;
-    width: 90%;
+    width: 100%;
     margin-top: 10px;
+    flex-wrap: wrap;
 
 }
 
 .section-footer{
-    width: 100%;
+    width: 33%;
     font-size: 95%;
-    justify-content:space-around;
 
 }
-   
+
+.imagen{
+    color: #0000FF;
+}
+
+.text-pie{
+    width: 100%;
+}
+
+.copyrigth{
+    width: 100%;
+}
 }

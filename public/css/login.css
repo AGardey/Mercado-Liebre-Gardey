@@ -384,7 +384,7 @@ footer{
        .main-movil{
         width: 100vw;
         /*height: 100vh;*/
-        background-color: #ebebeb;
+        background-color: #F0F8FF;
     }
     
     .section-display{
@@ -393,51 +393,74 @@ footer{
     
     .titulares{
         width: 100%;
-        background-color: #ebebeb;
+        background-color: #F0F8FF;
     }
     
-    .form-register{
+    .form-login{
         display: flex;
+        width: 100vw;
         padding: 10px;
-        background-color: #ebebeb;
+        background-color: #F0F8FF;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
         
     }
     label{
         width: 90%;
-        justify-content: center;
+        justify-content: flex-start;
     }
     
     p{
-        padding: 5px;
-        width: 100%;
-        justify-content: center;
+        width: 50%;
+        justify-content: flex-start;
+        align-items: center;
     }
     
     .button{
-        width: 30%;
-        justify-content: center;
-        text-align: center;
-        border-radius: 50%;
-        
+        width: 50%;
+        border-radius: 28%;
+        background-color:#0000FF;
+        overflow: hidden;
+        justify-content: flex-end;
+        transition: background-color 450ms;
+    }
+
+    .button:hover{
+        background-color: #0022AA;
+    }
+
+    .button-login{
+        color: white;
     }
 
 
 /*-----------------------FOOTER---------------------*/
     
 footer{
+    display: flex;
     text-align: center;
-    width: 90%;
+    width: 100%;
     margin-top: 10px;
+    flex-wrap: wrap;
 
 }
 
 .section-footer{
-    width: 100%;
+    width: 33%;
     font-size: 95%;
-    justify-content:space-around;
 
 }
-   
+
+.imagen{
+    color: #0000FF;
+}
+
+.text-pie{
+    width: 100%;
+}
+
+.copyrigth{
+    width: 100%;
+}
 }
