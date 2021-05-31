@@ -8,7 +8,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    margin: 0;
+    margin: 0px;
     width: 100vw;
 }
 
@@ -22,6 +22,7 @@ header{
 .div-versionuno{
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .logoliebre{
@@ -41,12 +42,18 @@ header{
 }
 
 .logo-tres{
-    width: 90%;
-    padding: 2%;
-    display: flex;
-    justify-content: space-around;
-    align-self: flex-end;
+    width: 95%;
+    padding: 0;
+    font-size: 80%;    
+    justify-content: center;
+    align-items: center;
 
+}
+
+.logo-cuotas{
+    width: 90%;
+    justify-content: center;
+    text-align: center;
 }
 
 nav{
@@ -117,11 +124,28 @@ p{
     justify-content: center;
 }
 
-button{
+/*button{
     width: 60%;
     justify-content: center;
     text-align: center;
     border-radius: 10px;
+}*/
+
+button{
+    width: 30%;
+    border-radius: 15%;
+    background-color:#0000FF;
+    overflow: hidden;
+    margin-left: 45%;
+    transition: background-color 450ms;
+}
+
+.button:hover{
+    background-color: #0022AA;
+}
+
+.button-login{
+    color: white;
 }
 
 /*-----------------------FOOTER---------------------*/
@@ -131,8 +155,19 @@ footer{
     text-align: center;
     width: 90%;
     margin-top: 10px;
-    padding-top: 10%
+    padding-top: 70px
 }
+
+.imagen{
+    color: #0000FF;
+    overflow: hidden;
+    transition: color 450ms;
+}
+
+.imagen:hover{
+    color: #FFFF00;
+}
+
 
 /*-----------------------MEDIA-QUERYS TABLET---------------------*/
 @media (min-width: 361px){
@@ -158,13 +193,11 @@ footer{
     
     .formulario{
         width: 33%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+
     }
     
     .logo-tres{
-        width: 30%;
+        width: 31%;
         font-size: 60%;
     }
 
@@ -188,19 +221,19 @@ footer{
    }
 
    .listado-1{
-    width: 47%;
+    width: 48%;
     display: flex;
     justify-content: center;
     margin: 0px;
-    font-size: 60%;
+    font-size: 63%;
    }
 
    .listado-2{
-    width: 47%;
+    width: 48%;
     display: flex;
     justify-content: center;
     margin: 0px;
-    font-size: 60%;
+    font-size: 63%;
  
    }
    
@@ -230,28 +263,30 @@ footer{
 }
    /*-----------------------MAIN---------------------*/
 
-   .main-movil{
+   .main-tablet{
     width: 100vw;
-    /*height: 100vh;*/
-    background-color: #ebebeb;
+    height: 100%;
+    background-color: #F0F8FF;
 }
 
 .section-display{
     width: 90%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .titulares{
     width: 100%;
-    background-color: #ebebeb;
+    background-color: #F0F8FF;
 }
 
-.form-register{
+.form-login{
     display: flex;
-    padding: 10px;
-    background-color: #ebebeb;
-    justify-content: center;
+    padding: 0px;
+    background-color: #F0F8FF;
+    justify-content: flex-start;
     align-items: center;
-    
+    flex-wrap: wrap;
 }
 label{
     width: 90%;
@@ -260,33 +295,60 @@ label{
 
 p{
     padding: 5px;
+    margin: 5%;
     width: 100%;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 button{
-    width: 60%;
-    justify-content: center;
-    text-align: center;
+    width: 30%;
+    border-radius: 15%;
+    background-color:#0000FF;
+    overflow: hidden;
+    margin-left: 45%;
+    transition: background-color 450ms;
 }
+
+.button:hover{
+    background-color: #0022AA;
+}
+
+.button-login{
+    color: white;
+}
+
 
 
    /*-----------------------FOOTER---------------------*/
 
 footer{
-    font-size: 70%;
-    text-align: center;
     width: 90%;
     margin-top: 10px;
+    flex-wrap: wrap;
 
 }
 
 .section-footer{
     width: 100%;
-    font-size: 90%;
+    font-size: 100%;
     justify-content:space-around;
 
 }
+
+.text-pie{
+    width: 90%;
+}
+
+.imagen{
+    color: #0000FF;
+    overflow: hidden;
+    transition: color 450ms;
+}
+
+.imagen:hover{
+    color: #FFFF00;
+}
+
 
 /*-----------------------MEDIA-QUERYS DESKTOP---------------------*/
 
@@ -307,23 +369,42 @@ footer{
         }
     
         .logoliebre{
-            width: 34%;
+            width: 31%;
         }
         
         .formulario{
-            width: 33%;
+            width: 35%;
             display: flex;
-            align-items: center;
-            justify-content: center;
+
+        }
+
+        
+        form{
+            width: 100%;
+
+        }
+
+
+
+        .formulario-1{
+            width: 70%;
+        }
+
+        .formulario-2{
+            width: 20%;
         }
         
         .logo-tres{
-            width: 30%;
-            font-size: 60%;
+            width: 33%;
+            font-size: 90%;
         }
+
+        
+
     
         .div-navbar{
             width: 100vw;
+            padding: 0px;
         }
            
     
@@ -333,6 +414,7 @@ footer{
         padding: 8px;
         justify-content: space-between;
         margin: 0px 5px;
+        font-size: 25px;
            
     
        }
@@ -381,25 +463,29 @@ footer{
     }
        /*-----------------------MAIN---------------------*/
 
-       .main-movil{
+       .main-tablet{
         width: 100vw;
-        /*height: 100vh;*/
+        /*height: auto;*/
         background-color: #F0F8FF;
+        margin: 0;
+        padding: 0;
     }
     
     .section-display{
-        width: 90%;
+        width: 100%;
+
     }
     
     .titulares{
         width: 100%;
+        padding:0;
         background-color: #F0F8FF;
     }
     
     .form-login{
         display: flex;
         width: 100vw;
-        padding: 10px;
+        padding: 25px;
         background-color: #F0F8FF;
         justify-content: center;
         align-items: center;
@@ -407,22 +493,27 @@ footer{
         
     }
     label{
-        width: 90%;
+        width: 25%;
         justify-content: flex-start;
     }
     
-    p{
-        width: 50%;
+    .usuario-pass{
+        width: 40%;
         justify-content: flex-start;
         align-items: center;
+        padding-bottom: 0px;
+    }
+
+    button{
+        margin: 0;
     }
     
     .button{
-        width: 50%;
+        width: 25%;
         border-radius: 28%;
         background-color:#0000FF;
         overflow: hidden;
-        justify-content: flex-end;
+        justify-content: flex-start;
         transition: background-color 450ms;
     }
 
@@ -454,10 +545,17 @@ footer{
 
 .imagen{
     color: #0000FF;
+    overflow: hidden;
+    transition: color 450ms;
+}
+
+.imagen:hover{
+    color: #FFFF00;
 }
 
 .text-pie{
     width: 100%;
+    justify-content: flex-start;
 }
 
 .copyrigth{

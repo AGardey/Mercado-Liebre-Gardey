@@ -52,47 +52,48 @@
             <form class="form-register" action="/register" method="POST">
                 <p>
                     <label>Nombre y Apellido:</label>
-                <input type="text" name="nombre-apellido" id="nombre-apellido">
+                <input class= "controles" type="text" name="nombre-apellido" id="nombre-apellido">
                 </p>
                 <p>
                     <label>Nombre de usuario:</label>
-                <input type="text" name="usuario" id="usuario">
+                <input class= "controles" type="text" name="usuario" id="usuario">
                 </p>
                 <p>
                     <label>Fecha de Nacimiento:</label>
-                <input type="date" name="fecha" value="2021-07-05" min="1930-01-01" max="2019-12-30">
+                <input class= "controles" type="date" name="fecha" value="2021-07-05" min="1930-01-01" max="2019-12-30">
                 </p>
                 <p>
                     <label>Domicilio:</label>
-                <input type="text" name="domicilio" id="domicilio">
+                <input class= "controles" type="text" name="domicilio" id="domicilio">
                 </p>
                 <p>
                     <label>Perfil: ¿Qué desea hacer?</label>
-                    <p><input type="radio" name="perfil" value="Vender">Vender</p>
-                    <p><input type="radio" name="perfil" value="Comprar">Comprar</p>
+                    <p><input class= "controles" type="radio" name="perfil" value="Vender">Vender</p>
+                    <p><input class= "controles" type="radio" name="perfil" value="Comprar">Comprar</p>
                 </p>
                 <p>
                     <label>Categorías de interés:</label>
-                    <p><input type="checkbox" name="categoría" value="Electro">Electro</p>
-                    <p><input type="checkbox" name="categoría" value="Moda">Moda</p>
-                    <p><input type="checkbox" name="categoría" value="Hogar">Hogar</p>
-                    <p><input type="checkbox" name="categoría" value="Juguetería">Juguetería</p>
-                    <p><input type="checkbox" name="categoría" value="Vida sana">Vida sana</p>
+                    <p><input class= "controles" type="checkbox" name="categoría" value="Electro">Electro</p>
+                    <p><input class= "controles" type="checkbox" name="categoría" value="Moda">Moda</p>
+                    <p><input class= "controles" type="checkbox" name="categoría" value="Hogar">Hogar</p>
+                    <p><input class= "controles" type="checkbox" name="categoría" value="Juguetería">Juguetería</p>
+                    <p><input class= "controles" type="checkbox" name="categoría" value="Vida sana">Vida sana</p>
                 </p>
                 <p>
                     <label>Foto de usuario:</label>
-                <input type="file" name="avatar" accept=".jpg">
+                <input class= "controles" type="file" name="avatar" accept=".jpg">
                 </p>
                 <p>
                     <label class="contraseña">Contraseña:</label>
-                <input type="text" name="password" id="password">
+                <input class= "controles" type="text" name="password" id="password">
                 </p>
                 <p>
                     <label>Confirmar Contraseña:</label>
-                <input type="text" name="password" id="password">
+                <input class= "controles" type="text" name="password" id="password">
                 </p>
-                <button type="submit">Enviar</button>
-                <button type="reset">Borrar</button>
+                <button class= "submit"type="submit"><a href="/">Enviar</a></button>
+                <button class= "reset" type="reset"><a href="/register">Borrar</a></button>
+                <p class="tengo-cuenta"><a href="/login">¿Ya tengo una cuenta?</a></p>
             </form>
         </section>   
     </main>        

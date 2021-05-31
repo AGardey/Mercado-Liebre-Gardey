@@ -28,7 +28,7 @@ header{
 }
 
 .logodos{
-    width: 80%;
+    width: 70%;
 }
 
 .formulario{
@@ -36,11 +36,11 @@ header{
 }
 
 .formulario-1{
-    width: 40%;
+    width: 100%;
 }
 
 .logo-tres{
-    width: 90%;
+    width: 100%;
     padding: 2%;
     display: flex;
     justify-content: space-around;
@@ -89,7 +89,7 @@ ul{
 }
 
 .section-display{
-    width: 90%;
+    width: 100%;
 }
 
 .titulares{
@@ -98,13 +98,24 @@ ul{
 }
 
 .form-register{
-    padding: 10px;
-    background-color: #ebebeb;
+    width: 85%;
+    padding: 30px;
+    background-color: #87cefa;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 4px;
+    color: white;
 }
 
-p{
-    padding: 5px;
+button{
+    width: 50%;
+    border: none;
+    padding: 1px;
+    color: white;
+    margin: 16px 0;
+    font-size: 13px;
 }
+
 
 
 /*-----------------------FOOTER---------------------*/
@@ -115,6 +126,17 @@ footer{
     width: 90%;
     margin-top: 10px;
 }
+
+.imagen{
+    color: #0000FF;
+    overflow: hidden;
+    transition: color 450ms;
+}
+
+.imagen:hover{
+    color: #FFFF00;
+}
+
 
 /*-----------------------MEDIA-QUERYS TABLET---------------------*/
 @media (min-width: 361px){
@@ -131,7 +153,7 @@ footer{
         justify-content: center;
         justify-content: space-between;
         align-items: center;
-        width:100vw;
+        width: 99vw;
     }
 
     .logoliebre{
@@ -174,7 +196,7 @@ footer{
     display: flex;
     justify-content: center;
     margin: 0px;
-    font-size: 60%;
+    font-size: 75%;
    }
 
    .listado-2{
@@ -182,7 +204,7 @@ footer{
     display: flex;
     justify-content: center;
     margin: 0px;
-    font-size: 60%;
+    font-size: 75%;
  
    }
    
@@ -219,24 +241,43 @@ footer{
 }
 
 .section-display{
-    width: 90%;
+    width: 100%;
 }
 
 .titulares{
     width: 100%;
-    background-color: #ebebeb;
+        font-size: 20px;
+        background-color: #ebebeb;  
 }
 
 .form-register{
-    padding: 20px;
-    background-color: #ebebeb;
+    width: 75%;
+    padding: 30px;
+    background-color: #87cefa;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 4px;
+    color: white;
 }
 
-p{
+.controles{
+    width: 100%;
+    background-color: #ffffff;
     padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    font-size: 18px;
+    
+
 }
 
 
+.tengo-cuenta{
+    font-size: 12px;
+    text-align: end;
+
+}
 
 
    /*-----------------------FOOTER---------------------*/
@@ -254,6 +295,16 @@ footer{
     font-size: 90%;
     justify-content:space-around;
 
+}
+
+.imagen{
+    color: #0000FF;
+    overflow: hidden;
+    transition: color 450ms;
+}
+
+.imagen:hover{
+    color: #FFFF00;
 }
 
 /*-----------------------MEDIA-QUERYS DESKTOP---------------------*/
@@ -287,7 +338,7 @@ footer{
         
         .logo-tres{
             width: 30%;
-            font-size: 60%;
+            font-size: 65%;
         }
     
         .div-navbar{
@@ -314,7 +365,7 @@ footer{
         display: flex;
         justify-content: center;
         margin: 0px;
-        font-size: 60%;
+        font-size: 80%;
        }
     
        .listado-2{
@@ -322,7 +373,7 @@ footer{
         display: flex;
         justify-content: center;
         margin: 0px;
-        font-size: 60%;
+        font-size: 80%;
      
        }
        
@@ -356,21 +407,42 @@ footer{
     }
     
     .section-display{
-        width: 90%;
+        width: 100%;
     }
     
     .titulares{
         width: 100%;
+        font-size: 20px;
         background-color: #ebebeb;
     }
     
     .form-register{
+        width: 70%;
         padding: 30px;
-        background-color: #ebebeb;
+        background-color: #87cefa;
+        margin: auto;
+        margin-top: 70px;
+        border-radius: 4px;
+        color: white;
+    }
+
+    .controles{
+        width: 100%;
+        background-color: #ffffff;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 10px;
+        border: 1px solid black;
+        font-size: 18px;
+        
+
     }
     
-    p{
-        padding: 15px;
+
+    .tengo-cuenta{
+        font-size: 12px;
+        text-align: end;
+
     }
 
 
@@ -394,6 +466,12 @@ footer{
 
 .imagen{
     color: #0000FF;
+    overflow: hidden;
+    transition: color 450ms;
+}
+
+.imagen:hover{
+    color: #FFFF00;
 }
 
 .text-pie{
