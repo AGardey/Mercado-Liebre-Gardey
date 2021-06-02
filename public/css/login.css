@@ -51,7 +51,7 @@ header{
 }
 
 .logo-cuotas{
-    width: 90%;
+    width: 100%;
     justify-content: center;
     text-align: center;
 }
@@ -90,32 +90,52 @@ ul{
 
 /*-----------------------MAIN---------------------*/
 
-.main-movil{
+main{
     width: 100vw;
-    height: 20vh;
-    background-color: #ebebeb;
+    background-color: white;
 }
 
-.section-display{
-    width: 90%;
+.section-login{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+
 }
 
 .titulares{
     width: 100%;
-    background-color: #ebebeb;
+    background-color: #F0F8FF;
 }
 
-.form-register{
-    display: flex;
-    padding: 10px;
-    background-color: #ebebeb;
-    justify-content: center;
-    align-items: center;
+.form-login{
+    width: 400px;
+    padding: 40px;
+    background-color: #F0F8FF;
+    margin: auto; 
+    margin-top: 10px;
+    margin-bottom: 50px;
+    border-radius: 4px;
     
 }
+
+.usuario-pass{
+    width: 100%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    font-size: 18px;  
+
+}
+
 label{
     width: 90%;
     justify-content: center;
+}
+
+input{
+    border: none;
 }
 
 p{
@@ -131,12 +151,14 @@ p{
     border-radius: 10px;
 }*/
 
-button{
-    width: 30%;
-    border-radius: 15%;
+.button{
+    width: 40%;
+    padding: 5px;
+    margin: 40px;
+    margin-left: 30%;
+    border-radius: 4px;
     background-color:#0000FF;
     overflow: hidden;
-    margin-left: 45%;
     transition: background-color 450ms;
 }
 
@@ -148,15 +170,28 @@ button{
     color: white;
 }
 
+.olvide{
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+
+}
+
+
 /*-----------------------FOOTER---------------------*/
 
 footer{
-    font-size: 65%;
     text-align: center;
-    width: 90%;
+    width: 100%;
     margin-top: 10px;
-    padding-top: 70px
+
 }
+
+.section-footer{
+    width: 100%;
+}
+
 
 .imagen{
     color: #0000FF;
@@ -167,6 +202,7 @@ footer{
 .imagen:hover{
     color: #FFFF00;
 }
+
 
 
 /*-----------------------MEDIA-QUERYS TABLET---------------------*/
@@ -225,7 +261,7 @@ footer{
     display: flex;
     justify-content: center;
     margin: 0px;
-    font-size: 63%;
+    font-size: 70%;
    }
 
    .listado-2{
@@ -233,7 +269,7 @@ footer{
     display: flex;
     justify-content: center;
     margin: 0px;
-    font-size: 63%;
+    font-size: 70%;
  
    }
    
@@ -260,17 +296,15 @@ footer{
 }
 
 
-}
    /*-----------------------MAIN---------------------*/
 
    .main-tablet{
     width: 100vw;
-    height: 100%;
-    background-color: #F0F8FF;
+    background-color: white;
 }
 
-.section-display{
-    width: 90%;
+.section-login{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -280,13 +314,25 @@ footer{
     background-color: #F0F8FF;
 }
 
-.form-login{
+/*.form-login{
     display: flex;
     padding: 0px;
     background-color: #F0F8FF;
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
+}*/
+
+.form-login{
+    width: 400px;
+    padding: 40px;
+    background-color: #F0F8FF;
+    margin: auto; 
+    margin-top: 10px;
+    margin-bottom: 50px;
+    border-radius: 4px;
+    color: #808080;
+    
 }
 label{
     width: 90%;
@@ -300,12 +346,12 @@ p{
     justify-content: space-around;
 }
 
-button{
+.button{
     width: 30%;
     border-radius: 15%;
     background-color:#0000FF;
     overflow: hidden;
-    margin-left: 45%;
+    margin-left: 35%;
     transition: background-color 450ms;
 }
 
@@ -317,12 +363,19 @@ button{
     color: white;
 }
 
+.olvide{
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
 
 
    /*-----------------------FOOTER---------------------*/
 
 footer{
-    width: 90%;
+    width: 100%;
     margin-top: 10px;
     flex-wrap: wrap;
 
@@ -331,7 +384,6 @@ footer{
 .section-footer{
     width: 100%;
     font-size: 100%;
-    justify-content:space-around;
 
 }
 
@@ -349,7 +401,7 @@ footer{
     color: #FFFF00;
 }
 
-
+}
 /*-----------------------MEDIA-QUERYS DESKTOP---------------------*/
 
 @media (min-width: 769px){
@@ -382,9 +434,7 @@ footer{
         form{
             width: 100%;
 
-        }
-
-
+        }  
 
         .formulario-1{
             width: 70%;
@@ -483,13 +533,14 @@ footer{
     }
     
     .form-login{
-        display: flex;
-        width: 100vw;
-        padding: 25px;
-        background-color: #F0F8FF;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
+        width: 400px;
+    padding: 40px;
+    background-color: #F0F8FF;
+    margin: auto; 
+    margin-top: 10px;
+    margin-bottom: 50px;
+    border-radius: 4px;
+    color: #808080;
         
     }
     label{
@@ -498,24 +549,27 @@ footer{
     }
     
     .usuario-pass{
-        width: 40%;
-        justify-content: flex-start;
-        align-items: center;
-        padding-bottom: 0px;
-    }
+            width: 100%;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            border: 1px solid black;
+            font-size: 18px;  
+        
+        }
+    
 
-    button{
-        margin: 0;
-    }
+
     
     .button{
-        width: 25%;
-        border-radius: 28%;
-        background-color:#0000FF;
-        overflow: hidden;
-        justify-content: flex-start;
-        transition: background-color 450ms;
-    }
+        width: 30%;
+    border-radius: 15%;
+    background-color:#0000FF;
+    overflow: hidden;
+    margin-left: 35%;
+    transition: background-color 450ms;
+}
 
     .button:hover{
         background-color: #0022AA;
@@ -529,7 +583,7 @@ footer{
 /*-----------------------FOOTER---------------------*/
     
 footer{
-    display: flex;
+    display:flex;
     text-align: center;
     width: 100%;
     margin-top: 10px;
@@ -561,4 +615,5 @@ footer{
 .copyrigth{
     width: 100%;
 }
+
 }

@@ -46,19 +46,20 @@
         </div>
     </header>
     <div class="banner"><img class= "banner-home" src="/img/img-home-banner.jpg" alt="banner"></div>
-        <main class="main-tablet">
-            <section class= "section-display">
-                <p class="titulares"><strong>Login de Usuario</strong></p>
-                <form class="form-login" action="/login" method="POST"> 
+        <main>
+            <section class= "section-login">
+                <form class="form-login" action="/login" method="POST">
+                    <p class="titulares"><strong>Login</strong></p>
                     <p class="usuario-pass">
-                        <label>Nombre de usuario:</label>
+                        <label>Nombre de usuario</label>
                     <input type="text" name="usuario" id="usuario">
                     </p>
                     <p class="usuario-pass">
-                        <label>Contraseña:</label>
+                        <label>Contraseña</label>
                     <input type="password" name="clave" id="clave">
                     </p>
                     <button class="button" type="submit"><a href="/"><label class="button-login">Enviar</label></button></a>
+                    <a href="/register"><p class="olvide">Olvidé mi Contraseña</p></a>
                 </form>
         </main>
 

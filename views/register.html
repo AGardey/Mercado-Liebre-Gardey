@@ -17,7 +17,7 @@
                 <form action="" method="post" target="_blank">
                     <p>
                         <input class="formulario-1" type="search" placeholder="Buscar productos, marcas">
-                        <input class="formulario-1" type="submit" value="Buscar">
+                        <input class="formulario-2" type="submit" value="Buscar">
                     </p>
                 </form>
             </div>
@@ -47,52 +47,53 @@
     </header>
     <div class="banner"><img class= "banner-home" src="/img/img-home-banner.jpg" alt="banner"></div>
     <main class="main-movil">
-        <section class= "section-display">
-            <p class="titulares"><strong>Registro</strong></p>
+        <section class= "section-register">
             <form class="form-register" action="/register" method="POST">
-                <p>
+                <span id="message-error"></span>
+                <p class="titulares"><strong>Registro</strong></p>
+                <p class="usuario-pass">
                     <label>Nombre y Apellido:</label>
-                <input class= "controles" type="text" name="nombre-apellido" id="nombre-apellido">
+                <input class= "controles" type="text" name="nombre-apellido" id="nombre-apellido" required>
                 </p>
-                <p>
+                <p class="usuario-pass">
                     <label>Nombre de usuario:</label>
-                <input class= "controles" type="text" name="usuario" id="usuario">
+                <input class= "controles" type="text" name="usuario" id="usuario" required>
                 </p>
-                <p>
+                <p class="usuario-pass">
                     <label>Fecha de Nacimiento:</label>
-                <input class= "controles" type="date" name="fecha" value="2021-07-05" min="1930-01-01" max="2019-12-30">
+                <input class= "controles" type="date" name="fecha" value="2021-07-05" min="1930-01-01" max="2019-12-30" required>
                 </p>
-                <p>
+                <p class="usuario-pass">
                     <label>Domicilio:</label>
-                <input class= "controles" type="text" name="domicilio" id="domicilio">
+                <input class= "controles" type="text" name="domicilio" id="domicilio" required>
                 </p>
-                <p>
+                <p class="usuario-pass">
                     <label>Perfil: ¿Qué desea hacer?</label>
                     <p><input class= "controles" type="radio" name="perfil" value="Vender">Vender</p>
                     <p><input class= "controles" type="radio" name="perfil" value="Comprar">Comprar</p>
                 </p>
-                <p>
+                <p class="usuario-pass">
                     <label>Categorías de interés:</label>
-                    <p><input class= "controles" type="checkbox" name="categoría" value="Electro">Electro</p>
-                    <p><input class= "controles" type="checkbox" name="categoría" value="Moda">Moda</p>
-                    <p><input class= "controles" type="checkbox" name="categoría" value="Hogar">Hogar</p>
-                    <p><input class= "controles" type="checkbox" name="categoría" value="Juguetería">Juguetería</p>
-                    <p><input class= "controles" type="checkbox" name="categoría" value="Vida sana">Vida sana</p>
+                    <p><input class= "controles" type="checkbox" name="categoría" value="Electro" required>Electro</p>
+                    <p><input class= "controles" type="checkbox" name="categoría" value="Moda" required>Moda</p>
+                    <p><input class= "controles" type="checkbox" name="categoría" value="Hogar" required>Hogar</p>
+                    <p><input class= "controles" type="checkbox" name="categoría" value="Juguetería" required>Juguetería</p>
+                    <p><input class= "controles" type="checkbox" name="categoría" value="Vida sana" required>Vida sana</p>
                 </p>
-                <p>
+                <p class="usuario-pass">
                     <label>Foto de usuario:</label>
-                <input class= "controles" type="file" name="avatar" accept=".jpg">
+                <input class= "controles" type="file" name="avatar" accept=".jpg" required>
                 </p>
-                <p>
+                <p class="usuario-pass">
                     <label class="contraseña">Contraseña:</label>
-                <input class= "controles" type="text" name="password" id="password">
+                <input class= "controles" type="text" name="password" id="password" required>
                 </p>
-                <p>
+                <p class="usuario-pass">
                     <label>Confirmar Contraseña:</label>
-                <input class= "controles" type="text" name="password" id="password">
+                <input class= "controles" type="text" name="password" id="password" required>
                 </p>
-                <button class= "submit"type="submit"><a href="/">Enviar</a></button>
-                <button class= "reset" type="reset"><a href="/register">Borrar</a></button>
+                <input class= "button" type="submit">
+                <input class= "button" type="reset">
                 <p class="tengo-cuenta"><a href="/login">¿Ya tengo una cuenta?</a></p>
             </form>
         </section>   

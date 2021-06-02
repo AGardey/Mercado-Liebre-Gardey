@@ -22,8 +22,6 @@ header{
 .div-versionuno{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    height: 12vh;
 }
 
 .logoliebre{
@@ -84,7 +82,7 @@ ul{
 .banner{
     display: flex;
     width: 100vw;
-    height: 90%;
+    height: 100%;
     justify-content: space-around;
     
 
@@ -107,18 +105,23 @@ ul{
 
 .main-movil{
     width: 100vw;
-    /*height: 100vh;*/
+    background-color: white;
+}
+
+.titulares{
+    color: #808080;
+}
+
+.section-display{
+    width: 100%;
     background-color: #ebebeb;
 }
 
-section{
-    width: 100%;
-  background: white;
-}
-
 .articulo-original{
-    width: 90vw;
-    padding: 5px;
+    width: 93vw;
+    margin: 10px;
+    justify-content: center;
+    background-color: white;
     box-shadow: none;
     transition: all 450ms;
 
@@ -137,11 +140,13 @@ hr{
 
 .article-box{
     width: 90%;
+    padding: 10px;
     margin: auto;
+    position: relative;
 }
 
 .imagen-producto{
-    max-width: 90%;
+    max-width: 100%;
 
 }
 
@@ -152,8 +157,7 @@ hr{
 }*/
 
 
-
-main section article i{
+.camion-verde{
     display: block; 
     font-size: 16px;
     padding: 5px; 
@@ -163,12 +167,13 @@ main section article i{
     background-color: #fff;
     border-radius: 50%;
     position: absolute; 
-    right: 20px; 
-    top: 55vh;
+    right: 34px; 
+    top: -15px;
 }
 
+
 .precio{
-    font-size: 18px;
+    font-size: 16px;
     width: 30%;
 
 }
@@ -248,6 +253,9 @@ footer{
     
     .formulario{
         width: 33%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
     .logo-tres{
@@ -256,7 +264,7 @@ footer{
     }
 
     .div-navbar{
-        width: 100vw;
+        width: 95vw;
     }
        
 
@@ -279,7 +287,7 @@ footer{
     display: flex;
     justify-content: center;
     margin: 0px;
-    font-size: 60%;
+    font-size: 75%;
    }
 
    .listado-2{
@@ -287,7 +295,7 @@ footer{
     display: flex;
     justify-content: center;
     margin: 0px;
-    font-size: 60%;
+    font-size: 75%;
  
    }
    
@@ -335,12 +343,13 @@ footer{
 
 .section-display{
     display: flex;
-    width: 95%;
+    width: 100%;
     flex-wrap: wrap;
 }
 
 .titulares{
     width: 100%;
+    color: #808080;
 }
 
 .imagen-producto{
@@ -351,6 +360,7 @@ footer{
 .articulo-original{
     width: 50%;
     height: 100%;
+    margin: 0;
 }
 
 .article-box{
@@ -380,7 +390,7 @@ footer{
 .descripciones{
     font-size:11px;
     height: 0vh;
-    display: none;
+    display:flex;
     justify-content: flex-start;
     visibility: hidden;
     overflow: hidden;
@@ -442,7 +452,7 @@ footer{
         
         .logo-tres{
             width: 30%;
-            font-size: 65%;
+            font-size: 60%;
         }
     
         .div-navbar{
@@ -605,14 +615,16 @@ footer{
         }
     
         .logoliebre{
-            width: 33%;
+            width: 31%;
+        }
+
+        form{
+            width: 100%;
         }
         
         .formulario{
-            width: 33%;
+            width: 35%;
             display: flex;
-            align-items: center;
-            justify-content: center;
         }
 
         .formulario-1{
@@ -626,6 +638,10 @@ footer{
         .logo-tres{
             width: 33%;
             font-size: 80%;
+        }
+
+        input{
+            border: none;
         }
     
         .div-navbar{

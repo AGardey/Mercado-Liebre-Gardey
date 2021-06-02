@@ -28,7 +28,7 @@ header{
 }
 
 .logodos{
-    width: 70%;
+    width: 80%;
 }
 
 .formulario{
@@ -36,7 +36,17 @@ header{
 }
 
 .formulario-1{
+    width: 70%
+}
+
+.formulario-2{
+    width: 20%
+}
+
+p{
+    padding: 5px;
     width: 100%;
+    justify-content: center;
 }
 
 .logo-tres{
@@ -85,38 +95,55 @@ ul{
 .main-movil{
     width: 100vw;
     /*height: 100vh;*/
-    background-color: #ebebeb;
+    background-color: white;
+    ;
 }
 
-.section-display{
+.section-register{
+    display: flex;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .titulares{
     width: 100%;
-    background-color: #ebebeb;
+    background-color: #F0F8FF;
 }
 
 .form-register{
-    width: 85%;
-    padding: 30px;
-    background-color: #87cefa;
+    width: 400px;
+    background-color: #F0F8FF;
     margin: auto;
-    margin-top: 70px;
+    margin-top: 30px;
+    border-radius: 4px;
+    color: #808080;
+}
+
+.usuario-pass{
+    padding: 10px;
+}
+
+.button{
+    width: 40%;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 30%;
     border-radius: 4px;
     color: white;
+    background-color:#0000FF;
+    overflow: hidden;
+    transition: background-color 450ms;
 }
 
-button{
-    width: 50%;
-    border: none;
-    padding: 1px;
-    color: white;
-    margin: 16px 0;
-    font-size: 13px;
+.button:hover{
+    background-color: #0022AA;
 }
 
 
+.tengo-cuenta{
+    font-size: 12px;
+    text-align: center;
+}
 
 /*-----------------------FOOTER---------------------*/
 
@@ -231,13 +258,13 @@ footer{
 }
 
 
-}
+
    /*-----------------------MAIN---------------------*/
 
    .main-movil{
     width: 100vw;
     /*height: 100vh;*/
-    background-color: #ebebeb;
+    background-color: white;
 }
 
 .section-display{
@@ -247,17 +274,16 @@ footer{
 .titulares{
     width: 100%;
         font-size: 20px;
-        background-color: #ebebeb;  
+        background-color: #F0F8FF;  
 }
 
 .form-register{
-    width: 75%;
-    padding: 30px;
-    background-color: #87cefa;
+    width: 400px;
+    padding: 40px;
+    background-color: #F0F8FF;
     margin: auto;
-    margin-top: 70px;
+    margin-top: 30px;
     border-radius: 4px;
-    color: white;
 }
 
 .controles{
@@ -273,9 +299,10 @@ footer{
 }
 
 
+
 .tengo-cuenta{
     font-size: 12px;
-    text-align: end;
+    text-align: center;
 
 }
 
@@ -307,6 +334,7 @@ footer{
     color: #FFFF00;
 }
 
+}
 /*-----------------------MEDIA-QUERYS DESKTOP---------------------*/
 
 @media (min-width: 769px){
@@ -326,23 +354,42 @@ footer{
         }
     
         .logoliebre{
-            width: 34%;
+            width: 31%;
+        }
+
+        form{
+            width: 100%;
+
+        }
+
+
+
+        .formulario-1{
+            width: 70%;
+        }
+
+        .formulario-2{
+            width: 20%;
         }
         
+        
         .formulario{
-            width: 33%;
+            width: 35%;
             display: flex;
-            align-items: center;
-            justify-content: center;
         }
         
         .logo-tres{
-            width: 30%;
-            font-size: 65%;
+            width: 33%;
+            font-size: 90%;
+        }
+
+        input{
+            border: none;
         }
     
         .div-navbar{
             width: 100vw;
+            padding: 0px;
         }
            
     
@@ -352,6 +399,7 @@ footer{
         padding: 8px;
         justify-content: space-between;
         margin: 0px 5px;
+        font-size: 25px;
            
     
        }
@@ -365,7 +413,7 @@ footer{
         display: flex;
         justify-content: center;
         margin: 0px;
-        font-size: 80%;
+        font-size: 60%;
        }
     
        .listado-2{
@@ -373,7 +421,7 @@ footer{
         display: flex;
         justify-content: center;
         margin: 0px;
-        font-size: 80%;
+        font-size: 60%;
      
        }
        
@@ -403,7 +451,7 @@ footer{
        .main-movil{
         width: 100vw;
         /*height: 100vh;*/
-        background-color: #ebebeb;
+        background-color: #F0F8FF;
     }
     
     .section-display{
@@ -413,17 +461,16 @@ footer{
     .titulares{
         width: 100%;
         font-size: 20px;
-        background-color: #ebebeb;
+        background-color: #F0F8FF;
     }
     
     .form-register{
-        width: 70%;
-        padding: 30px;
-        background-color: #87cefa;
-        margin: auto;
-        margin-top: 70px;
-        border-radius: 4px;
-        color: white;
+        width: 400px;
+    padding: 40px;
+    background-color: #F0F8FF;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 4px;
     }
 
     .controles{
@@ -441,7 +488,7 @@ footer{
 
     .tengo-cuenta{
         font-size: 12px;
-        text-align: end;
+        text-align: center;
 
     }
 
