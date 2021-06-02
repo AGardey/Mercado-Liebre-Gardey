@@ -169,8 +169,18 @@ hr{
     position: absolute; 
     right: 34px; 
     top: -15px;
+    color: #32CD32;
+    animation-name: camion-verde;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 
+@keyframes camion-verde {
+    0%   {color: #32CD32;}
+    25%  {color: #00BFFF;}
+    50%  {color: #FFFF00;}
+    100% {color: #FF00FF;}
+}
 
 .precio{
     font-size: 16px;
